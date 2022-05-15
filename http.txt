@@ -1,0 +1,93 @@
+                        Learn Http/Https
+----------------------------------------------------------------------------
+
+Http stand for HyperText Transfer protocol
+ and s is for SSL - Secure  Socket layer
+
+ The Http is used to communicate between frontend with the server(Backend)
+
+ The command types used by http are : 
+
+ Request command (Requested from client to server)
+
+ Get - to get a data from server
+ post - to create a data in server
+ Put - to update a data in server
+ delete - to delete a data in server
+
+
+Response : (Response given by server to client) ( provides:  status code  + any fuction or file that server want to return)
+
+Status code :
+1xx: Information
+2xx: successful
+3xx: redirection
+4xx : client error
+5xx : server error
+
+
+    Header : 
+-----------------
+
+General
+requestUrl : requested requestUrl
+request method : Get/post
+status code : any(based on response from server)
+remote address : 
+referrer policy : 
+
+Response Header 
+
+data provided by the server
+
+-----------------------------------------------------------------
+
+json(JavaScript Object Notation) : 
+
+json is a Syntax for storing and exchanging data
+
+json is text , written with javascript Object Notation
+
+in node we use jsonify to change the data to json format
+
+or var obj = json.parse() and var js =  json.stringify(obj) in JavaScript
+
+----------------------------------------------------------------------------
+
+AJAX -> jQuery -> Fetch
+
+Promises in javascript
+
+A promise can be in one of three possible state : Fulfilled, rejected, pending
+
+new feature in es6 which replaced callbacks
+
+A Promise is an Object that may produce a single value some time in future
+Either a resolved value, or a reason it's not resolved
+
+chaining in Promises
+
+----------------------------------------------------------------------------
+Async/Await Programming part of es8 built on top of Promises
+
+* makes codes easier to read
+
+
+----------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ 
+
